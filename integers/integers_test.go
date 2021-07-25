@@ -1,6 +1,8 @@
 package integers
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestAdder(t *testing.T) {
 	assertCorrectMessage := func(t testing.TB, expected, sum int) {
